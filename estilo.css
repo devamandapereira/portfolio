@@ -1,0 +1,127 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@100&display=swap');
+
+
+body {
+    margin: 0px;
+}
+
+:root {
+    --fonte-padrao: 'Encode Sans SC';
+}
+header {
+    background-color: black;
+    font-size: 1.2em;
+    text-align: right;
+    font-family: var(--fonte-padrao);
+    padding: 15px 0px 10px 0px;
+    margin: -8px 0px 0px 0px;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+header a:hover {
+    background-color:#AE1736;
+    color: #4C0005 ;
+    font-weight: bold;
+    transition-duration: .5s;
+}
+main {
+    background-image: url('imagens/foto-fundo-portfolio.jpg');
+
+    width: 1349px;
+    height: 900px;
+}
+main img {
+    text-align: center;
+    padding: 0px;
+    border: 0px;
+    width: 1349px;
+    height: 900px;
+}
+main h1 {
+    color: white;
+    text-align: left;
+    font-family: var(--fonte-padrao);
+    font-size: 45px;
+    margin: 0px;
+    padding: 80px 0px 5px 30px;
+}
+main h2 {
+    color: white;
+    text-align: left;
+    font-family: var(--fonte-padrao);
+    font-size: 18px;
+    margin: 0px;
+    padding: 0px 0px 0px 30px;
+}
+main a h2:hover {
+    background-color:#AE1736;
+    color: #4C0005 ;
+    font-weight: bold;
+    transition-duration: .5s;
+}
+main p {
+    text-align: left;
+    font-style: var(--fonte-padrao);
+    font-size: .9em;
+    margin: -20px;
+    margin-left: 0px;
+}
+main a {
+    text-decoration: none;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+main a:hover {
+    background-color:#AE1736;
+    color: #4C0005 ;
+    font-weight: bold;
+    transition-duration: .5s;
+}
+
+
+/*pagina 2 - projetos*/
+
+.projetos {
+    background-color: #420813;
+    color: white;
+    font-family: var(--fonte-padrao);
+}
+.projetos h1 {
+    text-align: center;
+}
+.projetos h1 a {
+    text-decoration: none;
+    color: white;
+}
+.projetos h1 a:hover {
+    background-color:#AE1736;
+    color: #4C0005 ;
+    font-weight: bold;
+    transition-duration: .5s;
+}
+section  {
+    height: 200px;
+    width: 240px;
+}
+#projeto1 p {
+    text-align: center;
+    color: black;
+    height: 200px;
+    width: 240px;
+    background-color: rgb(255, 255, 255); 
+    margin: 5px;
+    
+}
+#projeto2  {
+    color: black;
+    height: 200px;
+    width: 240px;
+    background-color: rgb(255, 255, 255); 
+    margin: 5px;
+}
